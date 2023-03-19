@@ -1,0 +1,59 @@
+
+ .card{
+    height: 500px;
+    width: 450px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 20px;
+ box-shadow: 24px 1px 56px -15px rgb(194, 194, 194);;
+ border-radius: 10px;
+
+
+
+ 
+}
+.card .tagContainer{
+width: 100%;
+display: flex;
+justify-content: center;
+gap: 1rem;
+}
+
+
+
+.card .tagContainer .tag{
+    font: 300 1rem "Encode";
+    text-transform: uppercase;
+}
+
+
+
+
+.card h3{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font: 500 1rem "Encode"
+}
+
+
+.card p{
+    letter-spacing: 1px;
+    font: 200 16px "Sans";
+    line-height: 25px;
+    
+}
+.card span{
+    font: 900 1.5rem "Encode";
+}
+
+
+
+@media screen and (max-width:600){
+    .card{
+    width:70vw;
+    }
+    
+}
